@@ -1,0 +1,244 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Comforter&family=Monoton&family=Sigmar&display=swap');
+
+  *{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.boodydia{
+    background: #F3F5F4;
+    color: #243746;
+}
+.boodynoche{
+    background: #091a28;
+   color: #ffffff;
+   }
+.boodynoche{
+    background: #091a28;
+   color: #ffffff;
+   }
+   .boodynoche a{
+    color: #ffffff;
+}
+.gara{
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    color: #fff;
+   
+}
+.conh1{
+display: flex;
+justify-content: center;
+}
+header .marca img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 2px solid #3b5c79;
+    transform: translatey(18px);
+    margin: 0 2px;
+}
+header .marca a{
+    color: white;
+    text-decoration: none;
+}
+header .marca a b::before{
+    content: "<";
+}
+header .marca a b::after{
+    content: ">";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5c79;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    transform: translateY(-10px);
+}
+header .con_navar{
+    display: flex;
+    justify-content: space-around;
+   margin-right: 1rem;
+}
+
+
+header .social i{
+    color: white;
+    margin: 0 2px;
+    cursor: pointer;
+    
+}
+.toggle{
+    color: #d1faf4;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+    display: none;
+}
+
+
+.capimg1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+
+}
+.capimg1 img{
+    margin-top: 8rem;
+    border-radius: 5px;
+    width: 80%;
+    border: 20px solid rgba(0, 0, 0, 0.123);
+}
+.textimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.textimg h2{
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.textimg p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+    margin: auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    overflow: hidden;
+}
+
+.video video{
+  
+    width: 80%;
+   
+    border: 20px solid rgba(0, 0, 0, 0.123);
+}
+
+
+
+
+
+ 
+ canvas{
+    /*  position: absolute; */
+     top: 0;
+     left: 0;
+     background: linear-gradient(rgb(17, 17, 20),rgb(52, 52, 100));
+     color: rgb(76, 226, 113);
+  /*    width: 500px;
+     height: 500px; */
+ }
+.clear{
+position: absolute;
+right: 20px;
+margin-top: 80px;
+padding: 5px;
+font-size: 2rem;
+cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .clear{
+        display: none;
+    }
+    .toggle{
+        display: inline-block;
+    }
+    .con_navar{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: -100vh;
+        background: #00000067;
+        text-align: center;
+        overflow: hidden;
+        height: calc(20vh - 80px);
+        width: 100%;
+        z-index: -1;
+        padding-left: -100px;
+       }
+     
+       header{
+        transform: translatey(-80px);
+        
+        }
+       
+       .active{
+        top: 80px;
+       }
+      
+       .marca b{
+        font-size: 12px;
+       }
+       header .social i{
+      margin: 0 5px;
+        
+       }
+       .content2{
+        width: 90%;
+       }
+
+       .contac{
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+       }
+       .cont-proyec{
+        flex-direction: column;
+       }
+       
+       .gara{
+        
+        font-family: 'Caveat', cursive;
+        font-size: 1.7rem;
+    }
+       canvas{
+        display: none;
+       }
+    .capimg1{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin-top: 5rem;
+    
+    }
+    .capimg1 img{
+        border-radius: 5px;
+        width: 90%;
+        height: auto;
+    }    
+    .textimg h2{
+        font-size: 2.5rem;
+    }
+    .textimg p{
+        width: auto;
+        margin: 0 3px;
+        font-size: 1rem;
+    }
+      .video video{
+        width: 99%;
+      }
+  
+    .contenedor12{
+        display: none;
+    }
+}  

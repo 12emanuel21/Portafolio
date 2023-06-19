@@ -1,0 +1,26 @@
+flecha acia la derecha <i class="bi bi-arrow-right"></i>
+
+code <i class="bi bi-code"></i>
+code slash <i class="bi bi-code-slash"></i>
+
+lista <i class="bi bi-list"></i>
+
+grafica <i class="bi bi-graph-up"></i>
+
+GitHub <i class="bi bi-github"></i>
+Facebook <i class="bi bi-facebook"></i>
+Twitter <i class="bi bi-twitter"></i>
+Instagram <i class="bi bi-instagram"></i>
+
+Phone <i class="bi bi-phone"></i>
+
+Stack <i class="bi bi-stack"></i>
+
+Chevron right <i class="bi bi-chevron-right"></i>
+Chevron down <i class="bi bi-chevron-down"></i>
+
+File  <i class="bi bi-file-earmark-fill"></i>
+
+book <i class="bi bi-book-half"></i>
+
+question <i class="bi bi-question"></i>
